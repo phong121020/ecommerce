@@ -1,0 +1,12 @@
+.cardList{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4,290px);
+    align-items: stretch;
+    justify-content: center;
+    gap: 30px;
+
+}
+

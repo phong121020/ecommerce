@@ -1,0 +1,47 @@
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    text-decoration: none;
+    color: black;
+}
+.img{
+    width: 60px;
+    height: 36px;
+}
+
+.actions{
+    // width: 140px;
+    display: flex;
+    gap:12px;
+    
+    a{
+        color: rgba(0, 0, 0, 0.54);
+    }
+}
+
+
+
+.icon{
+    position: relative;
+    border-radius: 100rem !important;
+    padding: 8px !important;
+
+    .amount{
+        position: absolute;
+        top:-2px;
+        left:22px;
+        width: 18px;
+        height: 18px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        border-radius: 100rem;
+        background-color: red;
+    }
+
+}
+
